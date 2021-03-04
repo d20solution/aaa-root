@@ -2,7 +2,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: aaa-app-s3-gb2
-  namespace: aaa
+  namespace: argocd
   finalizers:
 #    - resources-finalizer.argocd.argoproj.io
 spec:
