@@ -2,8 +2,8 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: aaa-app-s3-gb2
-  namespace: aaa
-  selfLink: /apis/argoproj.io/v1alpha1/namespaces/aaa/applications/aaa-app-s3-gb2
+  namespace: argocd
+#  selfLink: /apis/argoproj.io/v1alpha1/namespaces/aaa/applications/aaa-app-s3-gb2
   finalizers:
 #    - resources-finalizer.argocd.argoproj.io
 spec:
