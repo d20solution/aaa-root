@@ -4,7 +4,7 @@ metadata:
   name: aaa-app-s3-gb1
   namespace: aaa
   finalizers:
-    - resources-finalizer.argocd.argoproj.io
+#    - resources-finalizer.argocd.argoproj.io
 spec:
   project: aaa-proj-s3
 
