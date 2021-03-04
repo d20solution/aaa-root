@@ -1,0 +1,5 @@
+resources:
+- app/app1.yaml
+- app/app2.yaml
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
