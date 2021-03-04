@@ -3,6 +3,7 @@ kind: Application
 metadata:
   name: aaa-app-s3-gb1
   namespace: argocd
+  selfLink: /apis/argoproj.io/v1alpha1/namespaces/argocd/applications/aaa-app-s3-gb1
   finalizers:
 #    - resources-finalizer.argocd.argoproj.io
 spec:
@@ -13,9 +14,6 @@ spec:
     server: https://kubernetes.default.svc
 
   source:
-    helm:
-      valueFiles:
-      - values.yaml
     path: helm-guestbook
     repoURL: https://github.com/argoproj/argocd-example-apps.git
     targetRevision: HEAD
